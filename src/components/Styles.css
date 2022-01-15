@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    box-shadow: 0 8px 6px -6px rgb(56, 56, 56);
+}
+
+h2{
+    font-family: 'Caveat', cursive;
+}
+/* Header{
+    border: solid black 2px;
+} */
+
+.AdDesigner{
+    background-color: white;
+    text-align: center;
+    width:30%;
+    border: solid black;
+}
+
+.AdContainergrey{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    /* width:25%; */
+    border: solid black;
+
+}
+
+.AdContainer{
+    border: solid black;
+    /* width: 25%; */
+}
+
+button{
+    background-color: #0e3c7e;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:disabled{
+    padding: 8px;
+    color: white;
+    background-color: grey;
+}
+
+button:active{
+    color: #1e60a9;
+    padding: 8px;
+}
+
+.MoosetracksBar{
+    width: 0px;
+}
+
+.StrawberryBar{
+    width: 0px;
+}
+
+.ChocolateBar{
+    width:0px;
+}
+
+.Votes {
+    margin-top: 10px;
+
+}
+
+.fontButtons{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
